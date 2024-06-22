@@ -1,0 +1,78 @@
+/*Providers with maximum bookings */
+SELECT s.service_providerid,s.fname,COUNT(b.booking_id) as no_of_bookings FROM service_providers AS s
+JOIN bookings AS b ON b.service_providerid = s.service_providerid
+GROUP BY s.service_providerid
+ORDER BY no_of_bookings DESC
+LIMIT 10;
+
+/*Total_Requests_Made_from_Saint_Louis*/
+select count(r.req_id),r.user_id as demand
+from (requests as r join addresses as a on r.location_id = a.address_id)
+where a.city ='Saint Louis'
+group by r.user_id;
+
+/*Users who prefer cash on dilevery*/
+SELECT users.user_id,users.fname FROM users JOIN offers ON users.user_id=offers.user_id
+JOIN payment ON payment.offer_id = offers.offer_id
+WHERE payment.method='cash';
+
+/*Most requested service category*/
+SELECT requests.service_category,COUNT(req_id) as demand FROM requests
+GROUP BY service_category
+ORDER BY COUNT(req_id) DESC
+LIMIT 10;
+
+/*Provider with maximum repeat coustomers*/
+SELECT service_providers.service_providerid,service_providers.fname,service_providers.lname from service_providers 
+NATURAL JOIN bookings NATURAL JOIN requests  
+GROUP BY service_providers.service_providerid
+ORDER BY COUNT(requests.user_id) DESC 
+LIMIT 1;
+
+/*Service Providers who received highest ratings*/
+SELECT service_providerid,AVG(rating) AS avg_rating
+FROM Reviews NATURAL JOIN bookings NATURAL JOIN Service_Providers 
+Group by service_providerid 
+Order by AVG(rating) DESC;
+
+/*Top 5 Areas with most active users*/
+SELECT a.city ,count(b.req_id) AS no_of_req FROM addresses AS a 
+JOIN requests AS r ON r.location_id=a.address_id
+JOIN bookings AS b ON b.req_id = r.req_id
+GROUP BY a.city
+ORDER BY no_of_req DESC LIMIT 5;
+
+
+SELECT u.user_id FROM users AS u JOIN  requests AS r on u.user_id = r.user_id
+JOIN bookings AS b on b.req_id = r.req_id
+JOIN payment as p ON p.booking_id = b.booking_id
+WHERE  p.method = 'cash';
+
+
+/*Customer with maximum service req*/
+
+SELECT DISTINCT user_id, COUNT(req_id) AS no_of_req FROM requests
+GROUP BY user_id
+ORDER by no_of_req DESC
+LIMIT 10;
+
+/*How many requests have been placed for each service category?*/
+
+SELECT service_category,COUNT(req_id) FROM requests GROUP BY service_category;
+
+/*What is the revenue generated from each service in the past quarter?*/
+select b.service_providerid ,sum(p.total_amount) as revenue FROM bookings as b
+join payment as p on p.booking_id=b.booking_id
+group by b.service_providerid
+order by sum(p.total_amount)
+DESC limit 5;
+
+
+/*bookings made on 19 thh april 23*/
+
+SELECT COUNT(b.booking_id) FROM bookings AS b
+join requests AS r ON r.req_id = b.req_id WHERE r.date='19/04/2023';
+
+/*How many service requests were made in a specific time period?*/
+
+SELECT COUNT(*) FROM requests WHERE date BETWEEN '18/04/2023' AND '20/04/2023';

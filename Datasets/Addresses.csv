@@ -1,0 +1,71 @@
+address_id,user_id,house_details,street name,landmark,city,state,pincode
+401,1001,Apt 253,Kedzie,,Saint Louis,Missouri,63131
+402,1002,Room 1960,Fulton,,Dayton,Ohio,45440
+403,1003,Apt 1842,Gina,Heffernan,San Jose,California,95108
+404,1004,PO Box 39844,Blackbird,Maple Wood,Houston,Texas,77060
+405,1005,Room 895,Hazelcrest,Vernon,Washington,District of Columbia,20414
+406,1006,Apt 503,Mariners Cove,Dryden,Denver,Colorado,80270
+407,1007,PO Box 50264,Delladonna,,Des Moines,Iowa,50330
+408,1008,17th Floor,Cody,,Los Angeles,California,90101
+409,1009,Suite 34,Utah,,Kansas City,Missouri,64199
+410,1010,PO Box 96403,Bonner,,Norfolk,Virginia,23504
+411,1011,PO Box 59274,Stephen,,Chesapeake,Virginia,23324
+412,1012,Apt 468,Washington,Donald,Toledo,Ohio,43666
+413,1013,Suite 43,Schurz,Nelson,Raleigh,North Carolina,27626
+414,1014,9th Floor,Lerdahl,Eggendart,Louisville,Kentucky,40225
+415,1015,1st Floor,Manufacturers,,Fort Wayne,Indiana,46896
+416,1016,19th Floor,Twin Pines,Moulton,Washington,District of Columbia,20508
+417,1017,Suite 44,Hanover,,Norfolk,Virginia,23504
+418,1018,PO Box 56353,Rusk,Iowa,Decatur,Georgia,30033
+419,1019,Room 1768,Esch,Nobel,Grand Rapids,Michigan,49505
+420,1020,PO Box 36426,Carpenter,Kennedy,El Paso,Texas,88584
+421,1021,Room 393,Melody,Pennsylvania,Syracuse,New York,13217
+422,1022,Suite 36,Kensington,School,Lexington,Kentucky,40524
+423,1023,5th Floor,Hoffman,,Staten Island,New York,10305
+424,1024,Room 626,Dryden,Iowa,Washington,District of Columbia,20010
+425,1025,PO Box 41256,Northport,,Washington,District of Columbia,20022
+426,1026,20th Floor,Packers,Hermina,Tucson,Arizona,85732
+427,1027,Room 1034,Gateway,,South Bend,Indiana,46614
+428,1028,Room 1314,Dixon,Karstens,Lawrenceville,Georgia,30245
+429,1029,PO Box 40881,Hayes,,Buffalo,New York,14233
+430,1030,Apt 1090,Dixon,,Yonkers,New York,10705
+431,1031,8th Floor,Steensland,Erie,Evansville,Indiana,47737
+432,1032,7th Floor,Browning,Crescent Oaks,Spartanburg,South Carolina,29305
+433,1033,Apt 595,Oak,Shoshone,Lake Charles,Louisiana,70616
+434,1034,PO Box 86085,Morningstar,,Colorado Springs,Colorado,80920
+435,1035,Room 1720,Almo,,Chicago,Illinois,60619
+436,1036,Suite 36,Harper,,Tallahassee,Florida,32314
+437,1037,17th Floor,Kensington,,Indianapolis,Indiana,46216
+438,1038,Apt 1449,New Castle,Walton,Olympia,Washington,98506
+439,1039,Apt 49,Glacier Hill,,Roanoke,Virginia,24048
+440,1040,Suite 43,North,,Scottsdale,Arizona,85271
+441,1041,9th Floor,Canary,,Vienna,Virginia,22184
+442,1042,19th Floor,Graedel,,Dallas,Texas,75323
+443,1043,17th Floor,Dahle,,Stockton,California,95219
+444,1044,8th Floor,Glacier Hill,Annamark,Baltimore,Maryland,21239
+445,1045,Suite 17,Lakewood Gardens,,Saint Louis,Missouri,63131
+446,1046,PO Box 69892,Longview,Linden,Annapolis,Maryland,21405
+447,1047,PO Box 7542,Nevada,New Castle,Houston,Texas,77266
+448,1048,Room 1955,Straubel,,Saint Petersburg,Florida,33742
+449,1049,1st Floor,Michigan,American Ash,Levittown,Pennsylvania,19058
+450,1050,Suite 65,Kensington,,Saint Louis,Missouri,63131
+451,1043,Apt 1268,Weeping Birch,Sycamore,Dayton,Ohio,45440
+452,1023,6th Floor,Crescent Oaks,,San Jose,California,95108
+453,1032,PO Box 88698,Boyd,Dennis,Houston,Texas,77060
+454,1011,PO Box 18481,Judy,Jenifer,Washington,District of Columbia,20414
+455,1045,Room 688,Monica,,Denver,Colorado,80270
+456,1007,Room 1648,Westridge,Westridge,Des Moines,Iowa,50330
+457,1013,Room 1903,Mallard,Quincy,Saint Louis,Missouri,63131
+458,1017,14th Floor,Lakewood Gardens,Mendota,Dayton,Ohio,45440
+459,1035,Room 834,Pierstorff,Cascade,San Jose,California,95108
+460,1002,Suite 5,Melrose,,Houston,Texas,77060
+461,1027,Apt 1609,Summerview,Graedel,Washington,District of Columbia,20414
+462,1036,Room 23,Burrows,,Denver,Colorado,80270
+463,1044,PO Box 16248,Jenna,Merchant,Yonkers,New York,10705
+464,1021,Room 1813,Green,Saint Paul,Evansville,Indiana,47737
+465,1039,Apt 1754,Trailsway,Warner,Spartanburg,South Carolina,29305
+466,1009,20th Floor,Marquette,Mariners Cove,Lake Charles,Louisiana,70616
+467,1029,PO Box 87181,Bay,,Colorado Springs,Colorado,80920
+468,1049,7th Floor,Schmedeman,Stang,Chicago,Illinois,60619
+469,1001,Suite 96,Laurel,Village Green,Tallahassee,Florida,32314
+470,1025,14th Floor,Saint Paul,,Colorado Springs,Colorado,80920
